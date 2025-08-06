@@ -16,7 +16,7 @@ export default function Index() {
   useEffect(() => {
     const handleScroll = () => {
       const sections = ["home", "entertainment", "programs", "competitions", "contact"];
-      const scrollPosition = window.scrollY + 100;
+      const scrollPosition = window.scrollY + 120;
 
       for (const section of sections) {
         const element = document.getElementById(section);
@@ -31,6 +31,7 @@ export default function Index() {
     };
 
     window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Call once on mount
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
