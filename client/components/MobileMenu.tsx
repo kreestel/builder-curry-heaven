@@ -50,9 +50,14 @@ export default function MobileMenu({
                 {item.label}
               </button>
             ))}
-            <button className="w-full bg-gradient-to-r from-[#8B0000] to-[#FF6C00] text-[#FFF6E2] px-6 py-3 rounded-lg font-semibold mt-4">
-              Register Now
-            </button>
+            <a
+            href="https://shcollege.online/Registration/EventRegistrationForm"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full inline-flex items-center justify-center bg-gradient-to-r from-[#8B0000] to-[#FF6C00] text-[#FFF6E2] px-6 py-3 rounded-lg font-semibold mt-4"
+            >
+            Register Now
+            </a>
           </div>
         </div>
       )}
