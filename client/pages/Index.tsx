@@ -241,8 +241,8 @@ export default function Index() {
 
           {/* Day 2 */}
           <div>
-            <h3 className="text-3xl md:text-5xl font-bold text-[#DA4A01] text-center mb-12">DAY 2</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+            <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#DA4A01] text-center mb-8 lg:mb-12">DAY 2</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-6">
               {[
                 {
                   title: "Registration",
