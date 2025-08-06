@@ -283,13 +283,13 @@ export default function Index() {
       </section>
 
       {/* Competitions */}
-      <section id="competitions" className="py-20">
+      <section id="competitions" className="py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold text-[#DA4A01] mb-4">
+          <div className="text-center mb-12 lg:mb-16">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#DA4A01] mb-4">
               COMPETITIONS
             </h2>
-            <p className="text-xl md:text-2xl text-[#BA7451] max-w-4xl mx-auto">
+            <p className="text-lg sm:text-xl md:text-2xl text-[#BA7451] max-w-4xl mx-auto">
               Showcase your skills and complete for amazing prizes in our flagship competition
             </p>
           </div>
@@ -299,7 +299,7 @@ export default function Index() {
               {
                 title: "Shinigami Strategist",
                 description: "Think you've got what it takes to be the Best Manager? Prove your leadership, strategy, and decision-making under pressure",
-                prizePool: "₹15,000",
+                prizePool: "���15,000",
                 deadline: "August 20, 2025",
                 fee: "₹450"
               },
