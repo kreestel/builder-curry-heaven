@@ -616,9 +616,12 @@ function CompetitionCard({
         </div>
 
         <div className="lg:flex-shrink-0">
-          <button className="w-full lg:w-auto bg-transparent border-2 border-[#830303] text-[#9B0E00] px-4 lg:px-6 py-2 rounded-lg font-semibold hover:bg-[#9B0E00] hover:text-white transition-colors">
-            View Rules
-          </button>
+        <button
+          onClick={() => window.open('/pages/RULE1.jpg', '_blank', 'noopener,noreferrer')}
+          className="bg-gradient-to-r from-[#8B0000] to-[#FF6C00] text-[#FFF6E2] px-6 py-3 rounded-lg font-semibold hover:scale-105 transition-transform"
+        >
+          View Rules
+        </button>
         </div>
       </div>
     </div>
