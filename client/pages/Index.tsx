@@ -101,8 +101,8 @@ export default function Index() {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="relative min-h-screen flex items-center justify-center">
-        <div 
+      <section id="home" className="relative min-h-screen flex items-center justify-center pt-20">
+        <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage: `url('https://api.builder.io/api/v1/image/assets/TEMP/471a125997bdfd27188a0210523853918450b8d5?width=3106')`,
@@ -110,26 +110,26 @@ export default function Index() {
         >
           <div className="absolute inset-0 bg-black/40"></div>
         </div>
-        
+
         <div className="relative z-10 text-center max-w-5xl mx-auto px-4">
-          <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-[#FFF6E2] mb-4">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold text-[#FFF6E2] mb-4 leading-tight">
             ORANZA - 2025
           </h1>
-          <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold text-[#FFF6E2] mb-4">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-bold text-[#FFF6E2] mb-4 leading-tight">
             BUILDING BONDS BEYOND BUSINESS
           </h2>
-          <p className="text-xl md:text-2xl lg:text-3xl text-[#FFF6E2] mb-12 uppercase">
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-[#FFF6E2] mb-8 lg:mb-12 uppercase">
             Management Fest
           </p>
-          
-          <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
-            <div className="flex items-center gap-4 bg-[#DA4A01]/30 backdrop-blur-md px-6 py-3 rounded-full border-2 border-[#BA7451]/70">
-              <Calendar className="w-6 h-6 text-white" />
-              <span className="text-white font-semibold text-lg">Aug 22-23, 2025</span>
+
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 lg:gap-6 mb-8 lg:mb-12">
+            <div className="flex items-center gap-3 bg-[#DA4A01]/30 backdrop-blur-md px-4 lg:px-6 py-3 rounded-full border-2 border-[#BA7451]/70">
+              <Calendar className="w-5 h-5 lg:w-6 lg:h-6 text-white" />
+              <span className="text-white font-semibold text-sm lg:text-lg">Aug 22-23, 2025</span>
             </div>
-            <div className="flex items-center gap-4 bg-[#DA4A01]/30 backdrop-blur-md px-6 py-3 rounded-full border-2 border-[#BA7451]/70">
-              <MapPin className="w-6 h-6 text-white" />
-              <span className="text-white font-semibold text-lg">Sacred Heart College, Thevera</span>
+            <div className="flex items-center gap-3 bg-[#DA4A01]/30 backdrop-blur-md px-4 lg:px-6 py-3 rounded-full border-2 border-[#BA7451]/70">
+              <MapPin className="w-5 h-5 lg:w-6 lg:h-6 text-white" />
+              <span className="text-white font-semibold text-sm lg:text-lg text-center">Sacred Heart College, Thevera</span>
             </div>
           </div>
         </div>
