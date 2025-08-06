@@ -60,16 +60,17 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/d87fb2fac8836a3c1d7f1bef442e76232ebffadf?width=286" 
-                alt="ORANZA Logo" 
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/d87fb2fac8836a3c1d7f1bef442e76232ebffadf?width=286"
+                alt="ORANZA Logo"
                 className="h-8 w-auto"
               />
             </div>
-            
+
             <div className="hidden md:flex items-center space-x-8">
               {[
                 { id: "home", label: "HOME" },
+                { id: "entertainment", label: "ENTERTAINMENT" },
                 { id: "programs", label: "PROGRAMS" },
                 { id: "competitions", label: "COMPETITIONS" },
                 { id: "contact", label: "CONTACT" }
@@ -78,8 +79,8 @@ export default function Index() {
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
                   className={`text-[#FFF6E2] font-medium text-lg transition-all ${
-                    currentSection === item.id 
-                      ? "border-b-2 border-[#DA4A01] font-semibold" 
+                    currentSection === item.id
+                      ? "border-b-2 border-[#DA4A01] font-semibold"
                       : "hover:text-[#DA4A01]"
                   }`}
                 >
@@ -88,9 +89,13 @@ export default function Index() {
               ))}
             </div>
 
-            <button className="bg-gradient-to-r from-[#8B0000] to-[#FF6C00] text-[#FFF6E2] px-6 py-3 rounded-lg font-semibold hover:scale-105 transition-transform">
-              Register Now
-            </button>
+            <div className="hidden md:block">
+              <button className="bg-gradient-to-r from-[#8B0000] to-[#FF6C00] text-[#FFF6E2] px-6 py-3 rounded-lg font-semibold hover:scale-105 transition-transform">
+                Register Now
+              </button>
+            </div>
+
+            <MobileMenu currentSection={currentSection} onNavigate={scrollToSection} />
           </div>
         </div>
       </nav>
