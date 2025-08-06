@@ -62,7 +62,7 @@ export default {
           orange: "#DA4A01",
           brown: "#BA7451",
           "dark-red": "#9B0E00",
-          background: "#FFF3DA"
+          background: "#FFF3DA",
         },
       },
       borderRadius: {

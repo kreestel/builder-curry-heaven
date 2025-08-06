@@ -6,7 +6,10 @@ interface MobileMenuProps {
   onNavigate: (sectionId: string) => void;
 }
 
-export default function MobileMenu({ currentSection, onNavigate }: MobileMenuProps) {
+export default function MobileMenu({
+  currentSection,
+  onNavigate,
+}: MobileMenuProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
@@ -14,7 +17,7 @@ export default function MobileMenu({ currentSection, onNavigate }: MobileMenuPro
     { id: "entertainment", label: "ENTERTAINMENT" },
     { id: "programs", label: "PROGRAMS" },
     { id: "competitions", label: "COMPETITIONS" },
-    { id: "contact", label: "CONTACT" }
+    { id: "contact", label: "CONTACT" },
   ];
 
   const handleNavigate = (sectionId: string) => {
@@ -39,8 +42,8 @@ export default function MobileMenu({ currentSection, onNavigate }: MobileMenuPro
                 key={item.id}
                 onClick={() => handleNavigate(item.id)}
                 className={`block w-full text-left text-[#FFF6E2] font-medium text-lg py-2 transition-all ${
-                  currentSection === item.id 
-                    ? "text-[#DA4A01] font-semibold" 
+                  currentSection === item.id
+                    ? "text-[#DA4A01] font-semibold"
                     : "hover:text-[#DA4A01]"
                 }`}
               >
