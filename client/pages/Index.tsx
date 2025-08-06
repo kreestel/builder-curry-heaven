@@ -1,5 +1,6 @@
 import { Calendar, MapPin, Trophy, Clock, Phone, Mail } from "lucide-react";
 import { useState, useEffect } from "react";
+import MobileMenu from "../components/MobileMenu";
 
 export default function Index() {
   const [currentSection, setCurrentSection] = useState("home");
