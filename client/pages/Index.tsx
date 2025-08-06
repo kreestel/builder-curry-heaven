@@ -187,21 +187,21 @@ export default function Index() {
       </section>
 
       {/* Key Programs */}
-      <section id="programs" className="py-20">
+      <section id="programs" className="py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold text-[#DA4A01] mb-4">
+          <div className="text-center mb-12 lg:mb-16">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#DA4A01] mb-4">
               KEY PROGRAMS
             </h2>
-            <p className="text-xl md:text-2xl text-[#BA7451]">
+            <p className="text-lg sm:text-xl md:text-2xl text-[#BA7451]">
               Don't miss these events that define the ORANZA experience
             </p>
           </div>
 
           {/* Day 1 */}
-          <div className="mb-20">
-            <h3 className="text-3xl md:text-5xl font-bold text-[#DA4A01] text-center mb-12">DAY 1</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+          <div className="mb-16 lg:mb-20">
+            <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#DA4A01] text-center mb-8 lg:mb-12">DAY 1</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-6">
               {[
                 {
                   title: "Registration",
