@@ -366,13 +366,13 @@ export default function Index() {
       </section>
 
       {/* Spot Events Banner */}
-      <section className="py-12">
+      <section className="py-8 lg:py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-[#EFC376]/30 rounded-3xl p-8 text-center">
-            <h3 className="text-2xl md:text-3xl font-bold text-[#9B0E00] mb-4">
+          <div className="bg-[#EFC376]/30 rounded-3xl p-6 lg:p-8 text-center">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#9B0E00] mb-4">
               🎯 Spot Events @ Oranza
             </h3>
-            <p className="text-lg md:text-xl text-[#CC5215]">
+            <p className="text-base sm:text-lg md:text-xl text-[#CC5215] leading-relaxed">
               Get ready for adrenaline-pumping action and spontaneous fun with our specially curated Spot Events! Whether you're a gaming enthusiast, an anime lover, or a sports fanatic — we've got something just for you. Win exciting prizes and make every moment at Oranza unforgettable!
             </p>
           </div>
@@ -380,52 +380,62 @@ export default function Index() {
       </section>
 
       {/* Footer */}
-      <footer id="contact" className="bg-[#FDD99B] py-20">
+      <footer id="contact" className="bg-[#FDD99B] py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-            <div>
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/96a757d89685a5fa4b51e267ce89eb7883b3b2bc?width=288" 
-                alt="ORANZA Logo" 
-                className="h-8 w-auto mb-8"
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+            <div className="md:col-span-2 lg:col-span-1">
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/96a757d89685a5fa4b51e267ce89eb7883b3b2bc?width=288"
+                alt="ORANZA Logo"
+                className="h-8 w-auto mb-6 lg:mb-8"
               />
-              <div className="flex space-x-8">
-                <div className="w-14 h-14 bg-[#DA4A01] rounded-full flex items-center justify-center">
-                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12.017 2.078c-5.474 0-9.904 4.429-9.904 9.904s4.43 9.904 9.904 9.904 9.904-4.429 9.904-9.904-4.43-9.904-9.904-9.904zM2.113 11.982c5.474 0 9.904-4.43 9.904-9.904"/>
+              <div className="flex space-x-6 lg:space-x-8">
+                <div className="w-12 h-12 lg:w-14 lg:h-14 bg-[#DA4A01] rounded-full flex items-center justify-center hover:scale-110 transition-transform cursor-pointer">
+                  <svg className="w-6 h-6 lg:w-8 lg:h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path fillRule="evenodd" clipRule="evenodd" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
                   </svg>
                 </div>
-                <div className="w-14 h-14 bg-[#DA4A01] rounded-full flex items-center justify-center">
-                  <Mail className="w-8 h-8 text-white" />
+                <div className="w-12 h-12 lg:w-14 lg:h-14 bg-[#DA4A01] rounded-full flex items-center justify-center hover:scale-110 transition-transform cursor-pointer">
+                  <Mail className="w-6 h-6 lg:w-8 lg:h-8 text-white" />
                 </div>
               </div>
             </div>
 
             <div>
-              <h4 className="text-2xl font-bold text-[#AA410B] mb-6">Quick Links</h4>
-              <div className="space-y-4">
-                {["Home", "Entertainment Zones", "Programs", "Competition", "Registration"].map((link) => (
-                  <div key={link} className="text-lg text-[#DA4A01] hover:text-[#AA410B] cursor-pointer">
-                    {link}
-                  </div>
+              <h4 className="text-xl lg:text-2xl font-bold text-[#AA410B] mb-4 lg:mb-6">Quick Links</h4>
+              <div className="space-y-3 lg:space-y-4">
+                {[
+                  { label: "Home", id: "home" },
+                  { label: "Entertainment Zones", id: "entertainment" },
+                  { label: "Programs", id: "programs" },
+                  { label: "Competitions", id: "competitions" },
+                  { label: "Registration", id: "competitions" }
+                ].map((link) => (
+                  <button
+                    key={link.label}
+                    onClick={() => scrollToSection(link.id)}
+                    className="block text-base lg:text-lg text-[#DA4A01] hover:text-[#AA410B] cursor-pointer transition-colors"
+                  >
+                    {link.label}
+                  </button>
                 ))}
               </div>
             </div>
 
             <div>
-              <h4 className="text-2xl font-bold text-[#AA410B] mb-6">Contact Info</h4>
-              <div className="space-y-4">
-                <div className="flex items-center gap-3">
-                  <MapPin className="w-6 h-6 text-[#DA4A01]" />
-                  <span className="text-lg text-[#DA4A01]">Sacred Heart College, Thevera</span>
+              <h4 className="text-xl lg:text-2xl font-bold text-[#AA410B] mb-4 lg:mb-6">Contact Info</h4>
+              <div className="space-y-3 lg:space-y-4">
+                <div className="flex items-start gap-3">
+                  <MapPin className="w-5 h-5 lg:w-6 lg:h-6 text-[#DA4A01] mt-0.5 flex-shrink-0" />
+                  <span className="text-base lg:text-lg text-[#DA4A01]">Sacred Heart College, Thevera</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <Phone className="w-6 h-6 text-[#DA4A01]" />
-                  <span className="text-lg text-[#DA4A01]">+91 9232-324</span>
+                  <Phone className="w-5 h-5 lg:w-6 lg:h-6 text-[#DA4A01] flex-shrink-0" />
+                  <span className="text-base lg:text-lg text-[#DA4A01]">+91 9232-324</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <Mail className="w-6 h-6 text-[#DA4A01]" />
-                  <span className="text-lg text-[#DA4A01]">oranza2k25.com</span>
+                  <Mail className="w-5 h-5 lg:w-6 lg:h-6 text-[#DA4A01] flex-shrink-0" />
+                  <span className="text-base lg:text-lg text-[#DA4A01]">oranza2k25.com</span>
                 </div>
               </div>
             </div>
