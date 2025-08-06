@@ -100,14 +100,14 @@ export default function Index() {
             </div>
 
             <div className="hidden md:block">
-              <a
-              href="https://shcollege.online/Registration/EventRegistrationForm"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full inline-flex items-center justify-center bg-gradient-to-r from-[#8B0000] to-[#FF6C00] text-[#FFF6E2] px-6 py-3 rounded-lg font-semibold mt-4"
-              >
-              Register Now
-              </a>
+          <a
+            href="https://shcollege.online/Registration/EventRegistrationForm"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full inline-flex items-center justify-center bg-gradient-to-r from-[#8B0000] to-[#FF6C00] text-[#FFF6E2] px-6 py-3 rounded-lg font-semibold mt-4"
+          >
+            Register Now
+          </a>
             </div>
 
             <MobileMenu
