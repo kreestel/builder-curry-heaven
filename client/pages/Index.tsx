@@ -299,7 +299,7 @@ export default function Index() {
               {
                 title: "Shinigami Strategist",
                 description: "Think you've got what it takes to be the Best Manager? Prove your leadership, strategy, and decision-making under pressure",
-                prizePool: "���15,000",
+                prizePool: "₹15,000",
                 deadline: "August 20, 2025",
                 fee: "₹450"
               },
@@ -473,32 +473,32 @@ interface CompetitionCardProps {
 
 function CompetitionCard({ title, description, prizePool, deadline, fee }: CompetitionCardProps) {
   return (
-    <div className="bg-[#E5A333]/60 backdrop-blur-sm rounded-lg p-6 border border-[#BA7451]">
+    <div className="bg-[#E5A333]/60 backdrop-blur-sm rounded-lg p-4 lg:p-6 border border-[#BA7451] shadow-lg">
       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
         <div className="flex-1">
-          <h3 className="text-xl font-bold text-[#9B0E00] mb-2">{title}</h3>
-          <p className="text-[#DA4A01] mb-4">{description}</p>
-          
-          <div className="flex flex-wrap gap-4">
-            <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
-              <Trophy className="w-4 h-4 text-[#DA4A01]" />
-              <span className="text-sm font-semibold text-[#DA4A01]">Prize Pool-{prizePool}</span>
+          <h3 className="text-lg lg:text-xl font-bold text-[#9B0E00] mb-2">{title}</h3>
+          <p className="text-sm lg:text-base text-[#DA4A01] mb-4 leading-relaxed">{description}</p>
+
+          <div className="flex flex-wrap gap-2 lg:gap-4">
+            <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-2 lg:px-3 py-1 rounded-full">
+              <Trophy className="w-3 h-3 lg:w-4 lg:h-4 text-[#DA4A01]" />
+              <span className="text-xs lg:text-sm font-semibold text-[#DA4A01]">Prize Pool-{prizePool}</span>
             </div>
-            <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
-              <Calendar className="w-4 h-4 text-[#DA4A01]" />
-              <span className="text-sm font-semibold text-[#DA4A01]">Registration Deadline - {deadline}</span>
+            <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-2 lg:px-3 py-1 rounded-full">
+              <Calendar className="w-3 h-3 lg:w-4 lg:h-4 text-[#DA4A01]" />
+              <span className="text-xs lg:text-sm font-semibold text-[#DA4A01]">Deadline - {deadline}</span>
             </div>
-            <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
-              <svg className="w-4 h-4 text-[#DA4A01]" fill="currentColor" viewBox="0 0 24 24">
+            <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-2 lg:px-3 py-1 rounded-full">
+              <svg className="w-3 h-3 lg:w-4 lg:h-4 text-[#DA4A01]" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
               </svg>
-              <span className="text-sm font-semibold text-[#DA4A01]">Registration Fee - {fee}</span>
+              <span className="text-xs lg:text-sm font-semibold text-[#DA4A01]">Fee - {fee}</span>
             </div>
           </div>
         </div>
-        
+
         <div className="lg:flex-shrink-0">
-          <button className="bg-transparent border-2 border-[#830303] text-[#9B0E00] px-6 py-2 rounded-lg font-semibold hover:bg-[#9B0E00] hover:text-white transition-colors">
+          <button className="w-full lg:w-auto bg-transparent border-2 border-[#830303] text-[#9B0E00] px-4 lg:px-6 py-2 rounded-lg font-semibold hover:bg-[#9B0E00] hover:text-white transition-colors">
             View Rules
           </button>
         </div>
