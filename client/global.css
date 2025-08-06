@@ -9,35 +9,41 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 36 85% 95%;
+    --foreground: 9 82% 26%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 36 85% 95%;
+    --card-foreground: 9 82% 26%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 36 85% 95%;
+    --popover-foreground: 9 82% 26%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 18 93% 43%;
+    --primary-foreground: 36 95% 94%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 36 51% 71%;
+    --secondary-foreground: 9 82% 26%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 36 51% 71%;
+    --muted-foreground: 18 93% 43%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 36 51% 71%;
+    --accent-foreground: 9 82% 26%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 36 51% 71%;
+    --input: 36 51% 71%;
+    --ring: 18 93% 43%;
 
     --radius: 0.5rem;
+
+    /* ORANZA theme colors */
+    --oranza-cream: 36 95% 94%;
+    --oranza-orange: 18 93% 43%;
+    --oranza-brown: 36 51% 71%;
+    --oranza-dark-red: 9 82% 26%;
 
     --sidebar-background: 0 0% 98%;
 
