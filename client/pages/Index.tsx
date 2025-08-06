@@ -137,18 +137,18 @@ export default function Index() {
       </section>
 
       {/* Entertainment Zone */}
-      <section id="entertainment" className="py-20">
+      <section id="entertainment" className="py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold text-[#DA4A01] mb-4">
+          <div className="text-center mb-12 lg:mb-16">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#DA4A01] mb-4">
               Entertainment Zone
             </h2>
-            <p className="text-xl md:text-2xl text-[#BA7451] max-w-4xl mx-auto">
+            <p className="text-lg sm:text-xl md:text-2xl text-[#BA7451] max-w-4xl mx-auto">
               Incredible experiences awaits you at ORANZA 2025 each designed to bring together passionate communities
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             {[
               {
                 title: "Live Music",
@@ -168,15 +168,15 @@ export default function Index() {
               }
             ].map((item, index) => (
               <div key={index} className="group">
-                <div className="bg-[#E5A333]/60 backdrop-blur-sm rounded-xl p-6 hover:scale-105 transition-transform">
-                  <div className="aspect-[4/3] mb-6 rounded-lg overflow-hidden">
-                    <img 
-                      src={item.image} 
+                <div className="bg-[#E5A333]/60 backdrop-blur-sm rounded-xl p-4 lg:p-6 hover:scale-105 transition-transform duration-300 shadow-lg">
+                  <div className="aspect-[4/3] mb-4 lg:mb-6 rounded-lg overflow-hidden">
+                    <img
+                      src={item.image}
                       alt={item.title}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                     />
                   </div>
-                  <h3 className="text-xl font-bold text-[#9B0E00] text-center">
+                  <h3 className="text-lg lg:text-xl font-bold text-[#9B0E00] text-center">
                     {item.title}
                   </h3>
                 </div>
