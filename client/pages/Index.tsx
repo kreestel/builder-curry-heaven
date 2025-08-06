@@ -445,19 +445,19 @@ interface EventCardProps {
 
 function EventCard({ title, description, time, image }: EventCardProps) {
   return (
-    <div className="bg-[#E5A333]/60 backdrop-blur-sm rounded-lg border-2 border-[#BA7451] shadow-lg overflow-hidden hover:scale-105 transition-transform">
+    <div className="bg-[#E5A333]/60 backdrop-blur-sm rounded-lg border-2 border-[#BA7451] shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300">
       <div className="aspect-[4/3] relative">
         <img src={image} alt={title} className="w-full h-full object-cover" />
-        <div className="absolute bottom-0 left-0 right-0 bg-[#EFC376]/25 backdrop-blur-sm p-3">
+        <div className="absolute bottom-0 left-0 right-0 bg-[#EFC376]/25 backdrop-blur-sm p-2 lg:p-3">
           <div className="flex items-center gap-2 text-white">
-            <Clock className="w-4 h-4" />
-            <span className="text-sm font-semibold">{time}</span>
+            <Clock className="w-3 h-3 lg:w-4 lg:h-4" />
+            <span className="text-xs lg:text-sm font-semibold">{time}</span>
           </div>
         </div>
       </div>
-      <div className="p-4">
-        <h3 className="text-lg font-bold text-[#9B0E00] mb-2">{title}</h3>
-        <p className="text-sm text-[#DA4A01]">{description}</p>
+      <div className="p-3 lg:p-4">
+        <h3 className="text-base lg:text-lg font-bold text-[#9B0E00] mb-2">{title}</h3>
+        <p className="text-xs lg:text-sm text-[#DA4A01] leading-tight">{description}</p>
       </div>
     </div>
   );
