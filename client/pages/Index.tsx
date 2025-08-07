@@ -245,8 +245,8 @@ export default function Index() {
                   title: "Opening Ceremony",
                   description: "Chief guest",
                   time: "10:00 AM - 11:00 AM",
-                  image:
-                    "https://api.builder.io/api/v1/image/assets/TEMP/4141f90c2bf3425fb1414144334fe04d96ce44f7?width=394",
+                  image: "/openeing.png",
+        
                 },
                 {
                   title: "Competitions",
@@ -302,7 +302,7 @@ export default function Index() {
                   description: "Feel the rhythm, own the stage!",
                   time: "10:00 AM - 3:30 PM",
                   image:
-                    "https://api.builder.io/api/v1/image/assets/TEMP/57a765b87a7c8784eb882f5fdabdd77b8e11d5f5?width=394",
+                    "/dance.png",
                 },
                 {
                   title: "Fashion Shows",
@@ -310,7 +310,7 @@ export default function Index() {
                     "A runway of trends, talent, and timeless fashion!",
                   time: "6:00 PM - 6:30 PM",
                   image:
-                    "https://api.builder.io/api/v1/image/assets/TEMP/b6df0e7855cf7787fd495b22e100f0b968e5dd58?width=394",
+                    "/fashion.png",
                 },
                 {
                   title: "Closing Ceremony",
@@ -318,7 +318,7 @@ export default function Index() {
                     "The final bow – thank you for being part of it!",
                   time: "6:30 PM - August 21",
                   image:
-                    "https://api.builder.io/api/v1/image/assets/TEMP/ad63e0edeadcc3f91759367e6da23067d60b6985?width=394",
+                    "/closing.png",
                 },
               ].map((event, index) => (
                 <EventCard key={index} {...event} />
