@@ -532,24 +532,23 @@ export default function Index() {
                     Sacred Heart College, Thevera
                   </span>
                 </div>
-                  {/* Phone Section */}
-                  <div className="flex items-start gap-3">
-                    <Phone className="w-5 h-5 lg:w-6 lg:h-6 text-[#DA4A01] flex-shrink-0 mt-1" />
-                    <div className="text-base lg:text-lg text-[#DA4A01] space-y-1">
-                      <div>+91 9847058774 — Mr. Raghunandan C</div>
-                      <div>+91 8848006265 — Mr. Rijil Paul</div>
-                      <div>+91 8137068822 — Mr.Aswin Asokan</div>
-                    </div>
+                {/* Phone Section */}
+                <div className="flex items-start gap-3">
+                  <Phone className="w-5 h-5 lg:w-6 lg:h-6 text-[#DA4A01] flex-shrink-0 mt-1" />
+                  <div className="text-base lg:text-lg text-[#DA4A01] space-y-1">
+                    <div>+91 9847058774 — Mr. Raghunandan C</div>
+                    <div>+91 8848006265 — Mr. Rijil Paul</div>
+                    <div>+91 8137068822 — Mr.Aswin Asokan</div>
                   </div>
+                </div>
                   
-                  {/* Email Section */}
-                  <div className="flex items-center gap-3 mt-2">
-                    <Mail className="w-5 h-5 lg:w-6 lg:h-6 text-[#DA4A01] flex-shrink-0" />
-                    <span className="text-base lg:text-lg text-[#DA4A01]">
-                      oranzash@gmail.com
-                    </span>
-                  </div>
-
+                {/* Email Section */}
+                <div className="flex items-center gap-3 mt-2">
+                  <Mail className="w-5 h-5 lg:w-6 lg:h-6 text-[#DA4A01] flex-shrink-0" />
+                  <span className="text-base lg:text-lg text-[#DA4A01]">
+                    oranzash@gmail.com
+                  </span>
+                </div>
               </div>
             </div>
           </div>
