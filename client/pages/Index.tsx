@@ -350,7 +350,7 @@ export default function Index() {
                 prizePool: "₹15,000",
                 deadline: "August 20, 2025",
                 fee: "₹450",
-                rulesUrl: "https://krystal.kodiyil.com/RULE1.JPG", 
+                rulesUrl: "/rules.pdf", 
 
               },
               {
@@ -637,7 +637,9 @@ function CompetitionCard({
 
         <div className="lg:flex-shrink-0">
         <button
-          onClick={() => window.open('/RULE1.jpg', '_blank', 'noopener,noreferrer')}
+          onClick={() =>
+            window.open('/rules.pdf', '_blank', 'noopener,noreferrer')
+          }
           className="bg-gradient-to-r from-[#8B0000] to-[#FF6C00] text-[#FFF6E2] px-6 py-3 rounded-lg font-semibold hover:scale-105 transition-transform"
         >
           View Rules
