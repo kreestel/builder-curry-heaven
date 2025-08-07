@@ -391,9 +391,9 @@ export default function Index() {
                 title: "The Devil Fruit Den (Juniors)",
                 description:
                   "High school innovators, your stage is set! Pitch your big idea to the sharks and make your mark early.",
-                prizePool: "₹15,000",
+                prizePool: "₹10,000",
                 deadline: "August 20, 2025",
-                fee: "₹600",
+                fee: "₹400",
               },
               {
                 title: "The Devil Fruit Den",
@@ -406,7 +406,15 @@ export default function Index() {
               {
                 title: "Rhythm Re:Born Dance Competition",
                 description:
-                  "Multi-game tournament featuring League of Legends, Valorant and Counter-Strike",
+                  " Own the stage with every step. Bring the heat, bring the story, and let your moves do the talking.",
+                prizePool: "₹20,000",
+                deadline: "August 20, 2025",
+                fee: "₹1,200",
+              },
+              {
+                title: "Jujutsu Jam Band Competition",
+                description:
+                  " Let your music carry the emotion. Step into the spotlight and move hearts with every note.",
                 prizePool: "₹50,000",
                 deadline: "August 20, 2025",
                 fee: "₹2,000",
