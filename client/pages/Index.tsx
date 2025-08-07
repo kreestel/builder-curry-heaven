@@ -352,6 +352,8 @@ export default function Index() {
                 prizePool: "₹15,000",
                 deadline: "August 20, 2025",
                 fee: "₹450",
+                rulesUrl: "https://curryhaven.netlify.app/RULE1.jpg", 
+
               },
               {
                 title: "The Talent Alchemist",
