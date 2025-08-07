@@ -554,8 +554,6 @@ export default function Index() {
           </div>
         </div>
       </footer>
-  );
-}
 
 interface EventCardProps {
   title: string;
