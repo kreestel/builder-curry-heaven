@@ -561,8 +561,7 @@ interface EventCardProps {
   title: string;
   description: string;
   time: string;
-  image: string;
-}
+  image: string;}
 
 function EventCard({ title, description, time, image }: EventCardProps) {
   return (
