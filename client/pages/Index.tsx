@@ -483,7 +483,7 @@ export default function Index() {
                   <Mail className="w-6 h-6 lg:w-8 lg:h-8 text-white" />
                 </a>
               </div>
-            </div>
+            
 
             <div>
               <h4 className="text-xl lg:text-2xl font-bold text-[#AA410B] mb-4 lg:mb-6">
