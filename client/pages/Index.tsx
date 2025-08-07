@@ -619,7 +619,7 @@ function CompetitionCard({
 
         <div className="lg:flex-shrink-0">
         <button
-          onClick={() => window.open('/pages/RULE1.jpg', '_blank', 'noopener,noreferrer')}
+          onClick={() => window.open('/RULE1.jpg', '_blank', 'noopener,noreferrer')}
           className="bg-gradient-to-r from-[#8B0000] to-[#FF6C00] text-[#FFF6E2] px-6 py-3 rounded-lg font-semibold hover:scale-105 transition-transform"
         >
           View Rules
