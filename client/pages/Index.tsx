@@ -536,9 +536,9 @@ export default function Index() {
                 <div className="flex items-start gap-3">
                   <Phone className="w-5 h-5 lg:w-6 lg:h-6 text-[#DA4A01] flex-shrink-0 mt-1" />
                   <div className="text-base lg:text-lg text-[#DA4A01] space-y-1">
-                    <div>+91 9847058774 — Mr. Raghunandan C</div>
-                    <div>+91 8848006265 — Mr. Rijil Paul</div>
-                    <div>+91 8137068822 — Mr.Aswin Asokan</div>
+                  <span className="text-base lg:text-lg text-[#DA4A01]">
+                    +91 9895779719
+                  </span>
                   </div>
                 </div>
                   
