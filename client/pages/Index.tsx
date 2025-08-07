@@ -352,7 +352,7 @@ export default function Index() {
                 prizePool: "₹15,000",
                 deadline: "August 20, 2025",
                 fee: "₹450",
-                rulesUrl: "../RULE1.jpg", 
+                rulesUrl: "https://krystal.kodiyil.com/RULE1.JPG", 
 
               },
               {
