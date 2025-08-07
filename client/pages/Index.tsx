@@ -260,15 +260,14 @@ export default function Index() {
                   description:
                     "Where machines meet madness – the ultimate auto vibe!",
                   time: "3:30 PM - 5:00 PM",
-                  image:
-                    "https://api.builder.io/api/v1/image/assets/TEMP/b6df0e7855cf7787fd495b22e100f0b968e5dd58?width=394",
+                  image: "/pages/car.png",
                 },
                 {
                   title: "Live Music",
                   description: "Live tunes, loud vibes, unforgettable nights!",
                   time: "5:00 PM - 8:00 PM",
-                  image:
-                    "https://api.builder.io/api/v1/image/assets/TEMP/ff3ccafbb9883be3758e346d045ab075ba93eedd?width=479",
+                  image: "/pages/livemusickey.png",
+              
                 },
               ].map((event, index) => (
                 <EventCard key={index} {...event} />
