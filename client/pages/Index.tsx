@@ -454,7 +454,16 @@ export default function Index() {
       </section>
 
       {/* Footer */}
-            <div className="flex space-x-6 lg:space-x-8">
+      <footer id="contact" className="bg-[#FDD99B] py-16 lg:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+            <div className="md:col-span-2 lg:col-span-1">
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/96a757d89685a5fa4b51e267ce89eb7883b3b2bc?width=288"
+                alt="ORANZA Logo"
+                className="h-8 w-auto mb-6 lg:mb-8"
+              />
+              <div className="flex space-x-6 lg:space-x-8">
                 <div className="w-12 h-12 lg:w-14 lg:h-14 bg-[#DA4A01] rounded-full flex items-center justify-center hover:scale-110 transition-transform cursor-pointer">
                   <svg
                     className="w-6 h-6 lg:w-8 lg:h-8 text-white"
@@ -472,6 +481,7 @@ export default function Index() {
                   <Mail className="w-6 h-6 lg:w-8 lg:h-8 text-white" />
                 </div>
               </div>
+            </div>
             
 
             <div>
