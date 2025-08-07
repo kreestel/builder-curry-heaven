@@ -260,13 +260,13 @@ export default function Index() {
                   description:
                     "Where machines meet madness – the ultimate auto vibe!",
                   time: "3:30 PM - 5:00 PM",
-                  image: "/pages/car.png",
+                  image: "/car.png",
                 },
                 {
                   title: "Live Music",
                   description: "Live tunes, loud vibes, unforgettable nights!",
                   time: "5:00 PM - 8:00 PM",
-                  image: "/pages/livemusickey.png",
+                  image: "/livemusickey.png",
               
                 },
               ].map((event, index) => (
