@@ -253,7 +253,7 @@ export default function Index() {
                   description:
                     "Akatsuki Minds, Attack On Assets, The Devil Fruit Den (Juniors)",
                   time: "11:15 AM - 3:30 PM",
-                  image: "/compettition.jpg",
+                  image: "/compettition.png",
                 },
                 {
                   title: "Auto Show",
