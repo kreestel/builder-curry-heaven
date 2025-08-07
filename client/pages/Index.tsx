@@ -520,13 +520,25 @@ export default function Index() {
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 lg:w-6 lg:h-6 text-[#DA4A01] flex-shrink-0" />
                   <span className="text-base lg:text-lg text-[#DA4A01]">
-                    +91 9895779719
+                    +91 9847058774 Mr. Raghunandan C
+                  </span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Phone className="w-5 h-5 lg:w-6 lg:h-6 text-[#DA4A01] flex-shrink-0" />
+                  <span className="text-base lg:text-lg text-[#DA4A01]">
+                    +91 8848006265 Mr. Rijil Paul
+                  </span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Phone className="w-5 h-5 lg:w-6 lg:h-6 text-[#DA4A01] flex-shrink-0" />
+                  <span className="text-base lg:text-lg text-[#DA4A01]">
+                    +91 8137068822 Mr. Aswin Asokan
                   </span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="w-5 h-5 lg:w-6 lg:h-6 text-[#DA4A01] flex-shrink-0" />
                   <span className="text-base lg:text-lg text-[#DA4A01]">
-                    oranza2k25.com
+                    oranzash@gmail.com
                   </span>
                 </div>
               </div>
