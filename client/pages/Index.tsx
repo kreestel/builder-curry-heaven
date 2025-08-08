@@ -405,9 +405,9 @@ export default function Index() {
                 title: "Rhythm Re:Born Dance Competition",
                 description:
                   " Own the stage with every step. Bring the heat, bring the story, and let your moves do the talking.",
-                prizePool: "₹20,000",
+                prizePool: "₹15,000",
                 deadline: "August 20, 2025",
-                fee: "₹1,200",
+                fee: "₹1,500",
               },
               {
                 title: "Jujutsu Jam Band Competition",
@@ -415,7 +415,7 @@ export default function Index() {
                   " Let your music carry the emotion. Step into the spotlight and move hearts with every note.",
                 prizePool: "₹50,000",
                 deadline: "August 20, 2025",
-                fee: "₹2,000",
+                fee: "₹2,500",
               },
             ].map((competition, index) => (
               <CompetitionCard key={index} {...competition} />
@@ -440,7 +440,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-[#EFC376]/30 rounded-3xl p-6 lg:p-8 text-center">
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#9B0E00] mb-4">
-              🎯 Spot Events @ Oranza
+               Spot Events @ Oranza
             </h3>
             <p className="text-base sm:text-lg md:text-xl text-[#CC5215] leading-relaxed">
               Get ready for adrenaline-pumping action and spontaneous fun with
@@ -631,7 +631,7 @@ function CompetitionCard({
             <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-2 lg:px-3 py-1 rounded-full">
               <Calendar className="w-3 h-3 lg:w-4 lg:h-4 text-[#DA4A01]" />
               <span className="text-xs lg:text-sm font-semibold text-[#DA4A01]">
-                Deadline - {deadline}
+                Registration Deadline - {deadline}
               </span>
             </div>
             <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-2 lg:px-3 py-1 rounded-full">
