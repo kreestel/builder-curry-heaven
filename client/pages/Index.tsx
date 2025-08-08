@@ -295,7 +295,7 @@ export default function Index() {
                     "Shinigami Strategist, The Devil Fruit Den, My Marketing Academia, The Talent Alchemist",
                   time: "10:00 AM - 3:30 PM",
                   image:
-                    "https://api.builder.io/api/v1/image/assets/TEMP/cde1d0b3514eb4c15b616a1e79bae89a46a2d46c?width=394",
+                    "/Meeting With A Boss.jpeg",
                 },
                 {
                   title: "Rhythm Re:Born",
